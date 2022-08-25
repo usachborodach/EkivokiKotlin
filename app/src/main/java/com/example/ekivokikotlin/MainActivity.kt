@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         pKnopka.setOnClickListener {
             if (pInput.text.isEmpty()) {
-                pOutput.text = "Вы ничего не ввели!"
+                pOutput.text = "Вы ничего не ввели ШИШ СЪЕШЬ!"
             } else {
                 pOutput.text = "Привет, " + pInput.text
             }
