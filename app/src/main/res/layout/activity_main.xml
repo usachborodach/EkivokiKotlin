@@ -46,4 +46,14 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,LabelFor" />
 
+    <Button
+        android:id="@+id/oKnopka2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="28dp"
+        android:text="oKnopka2"
+        app:layout_constraintBottom_toTopOf="@+id/oInput"
+        app:layout_constraintStart_toStartOf="@+id/oKnopka" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
